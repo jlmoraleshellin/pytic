@@ -15,7 +15,7 @@
 
 ### Prerequisites
 
-`PyTic` requires the [Tic Software and Drivers for Windows][tic_drivers_win] msi provided by Pololu to be installed as a prerequisite. Other operating system drivers can be found on the [Pololu Tic Resources][tic_resources], but are not currently supported by this Python package.
+`PyTic` requires Pololu's Tic Software and drivers as a prerequisite. The latest versions of these drivers can be found here for [Windows][tic_drivers_win] and [Linux][tic_drivers_linux]. macOs is currently not supported by this Python package.
 
 
 ### Pip Install
@@ -240,6 +240,7 @@ External resources include the following,
 [pololu_tic_manual]: https://www.pololu.com/docs/0J71
 [logging_lib]: https://docs.python.org/3/library/logging.html
 [tic_protocol_h]: https://github.com/pololu/pololu-tic-software/blob/a75c204a2255554e21cc5351c528d930ba5d2c38/include/tic_protocol.h
-[tic_drivers_win]: https://www.pololu.com/file/0J1325/pololu-tic-1.6.2-win.msi
+[tic_drivers_win]: https://www.pololu.com/file/download/pololu-tic-1.8.2-win.msi?file_id=0J1325
+[tic_drivers_linux]: https://www.pololu.com/file/download/pololu-tic-1.8.1-linux-x86.tar.xz?file_id=0J1348
 [tic_resources]:https://www.pololu.com/product/3131/resources
 [tic_h]: https://github.com/pololu/pololu-tic-software/blob/master/include/tic.h
