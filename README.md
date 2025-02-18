@@ -8,6 +8,7 @@
 ## Introduction
 
 `PyTic` is an object-oriented Python wrapper for the Pololu Tic stepper driver series. The wrapper interacts with the stepper driver device using the API described in the [Pololu-Tic-Software][pololu_tic_software] GitHub page using the ctypes library. The device comunication protocol is USB.
+This is a maintained fork of the original [PyTic][pytic]. This project was originally created by Daniel Castelli at the Allen Institute. The original codebase and documentation remain fundamental to this fork.
 
 ---
 
@@ -18,16 +19,15 @@
 `PyTic` requires Pololu's Tic Software and drivers as a prerequisite. The latest versions of these drivers can be found here for [Windows][tic_drivers_win] and [Linux][tic_drivers_linux]. macOs is currently not supported by this Python package.
 
 
-### Pip Install
+### Install from releases
 
-To install the `PyTic` package on a Windows machine equipped with Python 2.7 or higher, run the following `pip` command:
-
-```console
-C:\> pip install pytic
-```
-
-* Note: Only Windows x64 machines are supported at this time.
-
+1. Go to the [Releases page][link-to-releases]
+2. Download the latest release's wheel file (`PyTic-x.x.x-py3-none-any.whl`) or source distribution (`PyTic-x.x.x.tar.gz`)
+3. Install using pip:
+   ```bash
+   pip install PyTic-x.x.x-py3-none-any.whl
+   # OR
+   pip install PyTic-x.x.x.tar.gz
 ---
 
 
@@ -218,12 +218,6 @@ Dependencies include the following,
 
 ---
 
-## Level of Support Notice
-
-This code is currently not supported. It is being released to the community AS IS without any guarantee of support. The community is welcome to submit issues, but should not expect an active response.
-
----
-
 ## External Resources
 
 External resources include the following,
@@ -244,3 +238,5 @@ External resources include the following,
 [tic_drivers_linux]: https://www.pololu.com/file/download/pololu-tic-1.8.1-linux-x86.tar.xz?file_id=0J1348
 [tic_resources]:https://www.pololu.com/product/3131/resources
 [tic_h]: https://github.com/pololu/pololu-tic-software/blob/master/include/tic.h
+[pytic]: https://github.com/AllenInstitute/pytic
+[link-to-releases]: https://github.com/jlmoraleshellin/pytic/releases
